@@ -1480,7 +1480,7 @@ footer {
 .walls-carousel-section {
   position: relative;
   z-index: 1;
-  padding: 80px 48px 96px;
+  padding: 48px 32px 56px;
   background: rgba(255, 255, 255, 0.04);
   border-radius: 24px;
   max-width: calc(100% - 48px);
@@ -1493,8 +1493,8 @@ footer {
 }
 .walls-carousel-section .section-title {
   color: var(--text-inv);
-  font-size: clamp(28px, 4vw, 40px);
-  margin-bottom: 48px;
+  font-size: clamp(24px, 3.5vw, 32px);
+  margin-bottom: 24px;
 }
 .walls-carousel-section .section-title em {
   color: var(--accent);
@@ -1526,7 +1526,7 @@ footer {
 
 .walls-carousel-track {
   display: flex;
-  gap: 28px;
+  gap: 20px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -1538,7 +1538,7 @@ footer {
 .walls-carousel-track { scrollbar-width: none; -ms-overflow-style: none; }
 
 .walls-carousel-card {
-  flex: 0 0 calc((100% - 84px) / 4);
+  flex: 0 0 calc((100% - 60px) / 4);
   scroll-snap-align: start;
   text-decoration: none;
   color: inherit;
@@ -1551,10 +1551,11 @@ footer {
   transform: translateY(-4px);
 }
 .walls-carousel-img {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 5;
   overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 .walls-carousel-img img {
   width: 100%;
@@ -1567,7 +1568,7 @@ footer {
   filter: brightness(1.05);
 }
 .walls-carousel-card-info {
-  padding: 20px 8px 0;
+  padding: 12px 6px 0;
   text-align: center;
 }
 .walls-carousel-name {
@@ -1696,13 +1697,13 @@ footer {
 
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 1024px) {
-  .walls-carousel-card { flex: 0 0 calc((100% - 56px) / 3); }
+  .walls-carousel-card { flex: 0 0 calc((100% - 40px) / 3); }
   .product-content--wide { max-width: 100%; padding-left: 24px; padding-right: 24px; }
 }
 @media (max-width: 768px) {
   .product-details-grid { grid-template-columns: 1fr; gap: 32px; }
-  .walls-carousel-card { flex: 0 0 calc((100% - 28px) / 2); }
-  .walls-carousel-section { padding: 48px 24px 64px; max-width: calc(100% - 24px); margin-left: auto; margin-right: auto; border-radius: 18px; }
+  .walls-carousel-card { flex: 0 0 calc((100% - 16px) / 2); }
+  .walls-carousel-section { padding: 32px 16px 40px; max-width: calc(100% - 24px); margin-left: auto; margin-right: auto; border-radius: 18px; }
   .walls-carousel { padding: 0 12px; }
   .walls-carousel::before { left: 12px; width: 40px; }
   .walls-carousel::after { right: 12px; width: 40px; }
@@ -1718,8 +1719,8 @@ footer {
   }
 }
 @media (max-width: 480px) {
-  .walls-carousel-card { flex: 0 0 75%; }
-  .walls-carousel-name { font-size: 15px; }
+  .walls-carousel-card { flex: 0 0 60%; }
+  .walls-carousel-name { font-size: 14px; }
   .product-title { font-size: 28px; }
 }
 
@@ -2096,4 +2097,64 @@ footer {
   .avail-gallery-grid { grid-template-columns: 1fr; max-width: 300px; }
   .avail-gallery-grid.single-image { max-width: 300px; }
   .avail-logo { width: 150px; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PRICING COMPARISON (Wedding Combo)
+   ═══════════════════════════════════════════════════════════════ */
+.pricing-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 680px;
+  margin: 32px auto 48px;
+}
+.pricing-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 32px 24px;
+  text-align: center;
+}
+.pricing-card--highlight {
+  background: rgba(196, 133, 110, 0.15);
+  border-color: var(--accent);
+}
+.pricing-card h3 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--text-inv);
+  margin-bottom: 16px;
+}
+.pricing-card--highlight h3 {
+  color: var(--accent);
+}
+.pricing-card .price-line {
+  font-size: 15px;
+  color: rgba(250, 247, 244, 0.7);
+  margin-bottom: 8px;
+}
+.pricing-card .price-total {
+  font-size: 28px;
+  font-family: var(--font-display);
+  color: var(--text-inv);
+  margin-top: 16px;
+}
+.pricing-card .price-savings {
+  font-size: 14px;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+.pricing-card .price-strikethrough {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+@media (max-width: 600px) {
+  .pricing-compare {
+    grid-template-columns: 1fr;
+  }
 }

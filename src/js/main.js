@@ -173,11 +173,11 @@ const heroImages = [
   if (!cards.length) return;
 
   prevBtn.addEventListener('click', function() {
-    var cardWidth = cards[0].offsetWidth + 24;
+    var cardWidth = cards[0].offsetWidth + 20;
     track.scrollBy({ left: -cardWidth * 2, behavior: 'smooth' });
   });
   nextBtn.addEventListener('click', function() {
-    var cardWidth = cards[0].offsetWidth + 24;
+    var cardWidth = cards[0].offsetWidth + 20;
     track.scrollBy({ left: cardWidth * 2, behavior: 'smooth' });
   });
 })();

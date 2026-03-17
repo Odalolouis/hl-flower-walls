@@ -155,6 +155,9 @@ const WEBHOOK_URL = "https://YOUR-N8N-INSTANCE.app.n8n.cloud/webhook/hl-inquiry"
 - **Convert HEIC Image** (`.claude/skills/convert-heic-image.md`): When the user adds
   a HEIC image and wants it used on the site, follow the conversion procedure in
   that file to convert to JPG and update the HTML reference.
+- **Deploy** (`.claude/skills/deploy.md`): After completing any code changes,
+  follow this procedure to commit, push to GitHub, and trigger a Netlify deploy
+  so the live site stays in sync.
 
 ## Rules for Claude Code
 
