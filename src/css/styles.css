@@ -1269,7 +1269,7 @@ footer {
   z-index: 1;
   max-width: 780px;
   margin: 0 auto;
-  padding: 120px 24px 0;
+  padding: 120px 24px 48px;
 }
 
 /* ── Breadcrumb (on dark bg) ───────────────────────────────── */
@@ -1694,6 +1694,206 @@ footer {
   color: rgba(250, 247, 244, 0.6);
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   PRODUCT BODY — Light background sections below hero
+   ═══════════════════════════════════════════════════════════════ */
+.product-body {
+  background: var(--bg);
+  position: relative;
+  z-index: 1;
+}
+.product-body .product-content {
+  padding-top: 64px;
+}
+
+/* ── Divider on light bg ─────────────────────────────────────── */
+.product-body .product-divider {
+  background: rgba(196, 133, 110, 0.2);
+}
+
+/* ── Details grid on light bg ────────────────────────────────── */
+.product-body .product-details-grid h2 {
+  color: var(--accent-dark);
+}
+.product-body .product-details-grid p {
+  color: var(--text-light);
+}
+.product-body .product-details-grid strong {
+  color: var(--text);
+}
+
+/* ── Services section on light bg ────────────────────────────── */
+.product-body .product-services {
+  padding: 64px 0 48px;
+}
+.product-body .product-services .section-eyebrow {
+  color: var(--accent);
+}
+.product-body .product-services .section-title {
+  color: var(--text);
+}
+.product-body .product-services .section-title em {
+  color: var(--accent-dark);
+}
+.product-body .product-services .section-desc {
+  color: var(--text-light);
+}
+.product-body .product-services .service-row {
+  background: #fff;
+  border: 1px solid rgba(196, 133, 110, 0.1);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 32px;
+  padding: 40px;
+}
+.product-body .product-services .service-text h3 {
+  color: var(--text);
+}
+.product-body .product-services .service-text h3 em {
+  color: var(--accent-dark);
+}
+.product-body .product-services .service-text p {
+  color: var(--text-light);
+}
+.product-body .product-services .feature-list li {
+  color: var(--text-light);
+}
+.product-body .product-services .feature-check {
+  color: var(--accent);
+}
+.product-body .product-services .service-badge {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ── FAQ on light bg ─────────────────────────────────────────── */
+.product-body .faq-item {
+  border-bottom-color: rgba(196, 133, 110, 0.15);
+}
+.product-body .faq-question {
+  color: var(--text);
+  background: none;
+  border: none;
+}
+.product-body .faq-question:hover {
+  color: var(--accent-dark);
+}
+.product-body .faq-icon {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.product-body .faq-item.active .faq-icon {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.product-body .faq-answer p {
+  color: var(--text-light);
+}
+.product-body .section-header .section-eyebrow {
+  color: var(--accent);
+}
+.product-body .section-header .section-title {
+  color: var(--text);
+}
+.product-body .section-header .section-title em {
+  color: var(--accent-dark);
+}
+
+/* ── CTA banner on light bg ──────────────────────────────────── */
+.product-body .cta-banner {
+  background: linear-gradient(135deg, var(--accent-dark), var(--accent) 50%, var(--blush));
+  border-top: none;
+}
+
+/* ── Other Walls carousel on light bg ────────────────────────── */
+.product-body .walls-carousel-section {
+  background: #fff;
+  border: 1px solid rgba(196, 133, 110, 0.08);
+}
+.product-body .walls-carousel-section .section-eyebrow {
+  color: var(--accent);
+}
+.product-body .walls-carousel-section .section-title {
+  color: var(--text);
+}
+.product-body .walls-carousel-section .section-title em {
+  color: var(--accent-dark);
+}
+.product-body .walls-carousel::before {
+  background: linear-gradient(to right, #fff, transparent);
+}
+.product-body .walls-carousel::after {
+  background: linear-gradient(to left, #fff, transparent);
+}
+.product-body .walls-carousel-name {
+  color: var(--text);
+}
+.product-body .walls-carousel-card:hover .walls-carousel-name {
+  color: var(--accent);
+}
+.product-body .walls-carousel-img {
+  border: 1px solid rgba(196, 133, 110, 0.1);
+}
+.product-body .walls-carousel-card .btn-primary {
+  color: var(--text-light);
+}
+.product-body .walls-carousel-card:hover .btn-primary {
+  color: var(--accent);
+}
+.product-body .walls-carousel-arrow {
+  background: rgba(45, 42, 38, 0.06);
+  border: 1px solid rgba(45, 42, 38, 0.1);
+  color: var(--text-light);
+}
+.product-body .walls-carousel-arrow:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* ── Pricing cards on light bg (wedding combo) ───────────────── */
+.product-body .pricing-card {
+  background: #fff;
+  border: 1px solid rgba(196, 133, 110, 0.12);
+}
+.product-body .pricing-card--highlight {
+  background: rgba(196, 133, 110, 0.08);
+  border-color: var(--accent);
+}
+.product-body .pricing-card h3 {
+  color: var(--text);
+}
+.product-body .pricing-card--highlight h3 {
+  color: var(--accent-dark);
+}
+.product-body .pricing-card .price-line {
+  color: var(--text-light);
+}
+.product-body .pricing-card .price-total {
+  color: var(--text);
+}
+
+/* ── Product details h3 on light bg ──────────────────────────── */
+.product-body .product-details-grid h3 {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.2vw, 24px);
+  font-weight: 400;
+  color: var(--accent-dark);
+  margin-bottom: 12px;
+}
+
+/* ── Feature list on light bg (outside .product-services) ────── */
+.product-body .feature-list li {
+  color: var(--text);
+}
+.product-body .feature-check {
+  color: #fff;
+  background: var(--accent);
+}
+.product-body .feature-list strong {
+  color: var(--text);
+}
 
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 1024px) {

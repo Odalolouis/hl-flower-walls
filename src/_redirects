@@ -1,0 +1,6 @@
+# Netlify rewrites — serve Products/ files at clean URLs
+/walls/*           /Products/walls/:splat        200
+/arches/*          /Products/arches/:splat       200
+/photo-booth/*     /Products/photo-booth/:splat  200
+/photo-booth       /Products/photo-booth/        200
+/wedding-combo/*   /Products/wedding-combo/:splat 200

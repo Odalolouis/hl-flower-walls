@@ -32,10 +32,10 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 const heroImages = [
   { src: 'images/hero-carousel/donna-champagne-flower-wall.jpg', alt: 'Donna Champagne flower wall with white roses and hydrangeas at a Tampa Bay wedding venue' },
   { src: 'images/hero-carousel/flora-pink-flower-wall.jpg', alt: 'Flora Pink flower wall with pink roses for a bridal shower in Clearwater Florida' },
-  { src: 'images/hero-carousel/img-5298-1.jpg', alt: 'Pink flower wall with Baby In Bloom LED sign for a baby shower in Tampa Florida' },
-  { src: 'images/hero-carousel/img-4448.jpg', alt: 'Serenity twin floral arches with white roses at an outdoor wedding ceremony in Tampa Bay' },
-  { src: 'images/hero-carousel/img-1068.jpg', alt: 'Pink flower wall with Happily Ever After LED sign and wicker chairs at a Tampa Bay wedding reception' },
-  { src: 'images/hero-carousel/img-4984.jpg', alt: 'Flora Pink flower wall with mirror photo booth setup at a Tampa Bay celebration' },
+  { src: 'images/hero-carousel/pink-flower-wall-baby-shower-led-sign-tampa.jpg', alt: 'Pink flower wall with Baby In Bloom LED sign for a baby shower in Tampa Florida' },
+  { src: 'images/hero-carousel/serenity-twin-floral-arches-outdoor-ceremony-tampa.jpg', alt: 'Serenity twin floral arches with white roses at an outdoor wedding ceremony in Tampa Bay' },
+  { src: 'images/hero-carousel/pink-flower-wall-happily-ever-after-led-sign-tampa.jpg', alt: 'Pink flower wall with Happily Ever After LED sign and wicker chairs at a Tampa Bay wedding reception' },
+  { src: 'images/hero-carousel/flora-pink-flower-wall-photo-booth-setup-tampa.jpg', alt: 'Flora Pink flower wall with mirror photo booth setup at a Tampa Bay celebration' },
   { src: 'images/hero-carousel/photo-booth-rental-tampa.jpg', alt: 'Amor Red rose flower wall with mirror photo booth rental at a Tampa Bay event venue' },
   { src: 'images/hero-carousel/photo-booth-rental.jpg', alt: 'Hedge flower wall with LED sign and mirror photo booth at a corporate event in Tampa' },
   // Add more images here ↓
