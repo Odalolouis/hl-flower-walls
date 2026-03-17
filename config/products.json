@@ -1,0 +1,115 @@
+[
+  {
+    "id": "FW-001",
+    "category": "flower-wall",
+    "name": "Dhalia Pink Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "FW-002",
+    "category": "flower-wall",
+    "name": "Amour Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "FW-003",
+    "category": "flower-wall",
+    "name": "Donna Champagne Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "FW-004",
+    "category": "flower-wall",
+    "name": "Flora Pink Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "FW-005",
+    "category": "flower-wall",
+    "name": "Angel White Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "FW-006",
+    "category": "flower-wall",
+    "name": "The Aria Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "FW-007",
+    "category": "flower-wall",
+    "name": "Veronica's Garden Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "FW-008",
+    "category": "flower-wall",
+    "name": "The Pearl Flower Wall",
+    "hourly_rate": 80,
+    "daily_rate": 360
+  },
+  {
+    "id": "TA-001",
+    "category": "twin-arches",
+    "name": "Serenity Twin Floral Arches",
+    "hourly_rate": 70,
+    "daily_rate": 315
+  },
+  {
+    "id": "PB-001",
+    "category": "photo-booth",
+    "name": "Mirror Photo Booth",
+    "hourly_rate": 180,
+    "daily_rate": 810
+  },
+  {
+    "id": "LED-001",
+    "category": "led-sign",
+    "name": "Mr & Mrs LED Sign",
+    "hourly_rate": null,
+    "daily_rate": 30
+  },
+  {
+    "id": "LED-002",
+    "category": "led-sign",
+    "name": "Will You Marry Me LED Sign",
+    "hourly_rate": null,
+    "daily_rate": 30
+  },
+  {
+    "id": "WC-001",
+    "category": "wedding-combo",
+    "name": "The Wedding Combo",
+    "hourly_rate": 135,
+    "daily_rate": 540,
+    "includes": ["FW-003", "TA-001"]
+  },
+  {
+    "id": "SYW-001",
+    "category": "style-your-wall",
+    "name": "Flower Wall + Draping",
+    "hourly_rate": null,
+    "daily_rate": 60
+  },
+  {
+    "id": "SYW-002",
+    "category": "style-your-wall",
+    "name": "Flower Wall + LED Sign",
+    "hourly_rate": null,
+    "daily_rate": 30
+  },
+  {
+    "id": "SYW-003",
+    "category": "style-your-wall",
+    "name": "Flower Wall + Draping & LED",
+    "hourly_rate": null,
+    "daily_rate": 80
+  }
+]
