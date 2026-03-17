@@ -1703,12 +1703,16 @@ footer {
   z-index: 1;
 }
 .product-body .product-content {
-  padding-top: 64px;
+  padding-top: 40px;
+}
+.product-body .product-cta-row {
+  margin-bottom: 32px;
 }
 
 /* ── Divider on light bg ─────────────────────────────────────── */
 .product-body .product-divider {
   background: rgba(196, 133, 110, 0.2);
+  margin-bottom: 32px;
 }
 
 /* ── Details grid on light bg ────────────────────────────────── */
@@ -1716,15 +1720,21 @@ footer {
   color: var(--accent-dark);
 }
 .product-body .product-details-grid p {
-  color: var(--text-light);
+  color: var(--text);
+}
+.product-body .product-details-grid p em {
+  color: var(--text);
 }
 .product-body .product-details-grid strong {
   color: var(--text);
 }
+.product-body .product-details-grid {
+  margin-bottom: 32px;
+}
 
 /* ── Services section on light bg ────────────────────────────── */
 .product-body .product-services {
-  padding: 64px 0 48px;
+  padding: 40px 0 32px;
 }
 .product-body .product-services .section-eyebrow {
   color: var(--accent);
