@@ -2,42 +2,42 @@
   {
     "id": "FW-001",
     "category": "flower-wall",
-    "name": "Dhalia Pink Flower Wall",
+    "name": "Donna Champagne Flower Wall",
     "hourly_rate": 80,
     "daily_rate": 360
   },
   {
     "id": "FW-002",
     "category": "flower-wall",
-    "name": "Amour Flower Wall",
+    "name": "Amor Red Flower Wall",
     "hourly_rate": 80,
     "daily_rate": 360
   },
   {
     "id": "FW-003",
     "category": "flower-wall",
-    "name": "Donna Champagne Flower Wall",
+    "name": "The Aria Flower Wall",
     "hourly_rate": 80,
     "daily_rate": 360
   },
   {
     "id": "FW-004",
     "category": "flower-wall",
-    "name": "Flora Pink Flower Wall",
+    "name": "Angel White Flower Wall",
     "hourly_rate": 80,
     "daily_rate": 360
   },
   {
     "id": "FW-005",
     "category": "flower-wall",
-    "name": "Angel White Flower Wall",
+    "name": "Dhalia Pink Flower Wall",
     "hourly_rate": 80,
     "daily_rate": 360
   },
   {
     "id": "FW-006",
     "category": "flower-wall",
-    "name": "The Aria Flower Wall",
+    "name": "Flora Pink Flower Wall",
     "hourly_rate": 80,
     "daily_rate": 360
   },

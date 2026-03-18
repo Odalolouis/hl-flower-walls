@@ -3,6 +3,8 @@
 // ═══════════════════════════════════════════════════════════════
 
 // ── Zapier Webhook Configuration ─────────────────────────────
+// TODO(pre-launch): Replace with your real Zapier webhook URL before going live.
+// Form submissions will silently fail until this is configured.
 const ZAPIER_WEBHOOK_URL = "https://hooks.zapier.com/hooks/catch/YOUR_ZAP_ID/YOUR_HOOK_ID/";
 
 // ── Inquiry Code Generator ───────────────────────────────────
@@ -43,10 +45,15 @@ function showFormErrors(form, errors) {
   if (!errDiv) return;
   if (errors.length === 0) {
     errDiv.style.display = 'none';
-    errDiv.innerHTML = '';
+    errDiv.textContent = '';
     return;
   }
-  errDiv.innerHTML = errors.map(function(e) { return '<p>' + e + '</p>'; }).join('');
+  errDiv.textContent = '';
+  errors.forEach(function (msg) {
+    var p = document.createElement('p');
+    p.textContent = msg;
+    errDiv.appendChild(p);
+  });
   errDiv.style.display = 'block';
 }
 

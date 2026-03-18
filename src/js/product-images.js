@@ -3,246 +3,298 @@
 var PRODUCT_IMAGES = {
   "amor-red": [
     {
-      "src": "images/walls/amor-red/amor-red-flower-wall-closeup-detail-tampa.jpg",
+      "src": "/images/walls/amor-red/amor-red-flower-wall-closeup-detail-tampa.jpg",
       "alt": "Amor Red Flower Wall rental Tampa Bay - amor red flower wall closeup detail tampa"
     },
     {
-      "src": "images/walls/amor-red/amor-red-flower-wall-event-display-tampa-1.jpg",
+      "src": "/images/walls/amor-red/amor-red-flower-wall-event-display-tampa-1.jpg",
       "alt": "Amor Red Flower Wall rental Tampa Bay - amor red flower wall event display tampa 1"
     },
     {
-      "src": "images/walls/amor-red/amor-red-flower-wall-event-display-tampa-2.jpg",
+      "src": "/images/walls/amor-red/amor-red-flower-wall-event-display-tampa-2.jpg",
       "alt": "Amor Red Flower Wall rental Tampa Bay - amor red flower wall event display tampa 2"
     },
     {
-      "src": "images/walls/amor-red/amor-red-flower-wall-event-display-tampa-3.jpg",
+      "src": "/images/walls/amor-red/amor-red-flower-wall-event-display-tampa-3.jpg",
       "alt": "Amor Red Flower Wall rental Tampa Bay - amor red flower wall event display tampa 3"
     },
     {
-      "src": "images/walls/amor-red/amor-red-flower-wall-rental-setup-tampa.jpg",
+      "src": "/images/walls/amor-red/amor-red-flower-wall-rental-setup-tampa.jpg",
       "alt": "Amor Red Flower Wall rental Tampa Bay - amor red flower wall rental setup tampa"
     },
     {
-      "src": "images/walls/amor-red/amor-red-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/amor-red/amor-red-flower-wall-rental-tampa.jpg",
       "alt": "Amor Red Flower Wall rental Tampa Bay - amor red flower wall rental tampa"
     }
   ],
   "angel-white": [
     {
-      "src": "images/walls/angel-white/angel-white-flower-wall-birthday-party-led-sign-tampa.jpg",
+      "src": "/images/walls/angel-white/angel-white-flower-wall-birthday-party-led-sign-tampa.jpg",
       "alt": "Angel White Flower Wall rental Tampa Bay - angel white flower wall birthday party led sign tampa"
     },
     {
-      "src": "images/walls/angel-white/angel-white-flower-wall-closeup-white-roses-greenery-tampa.jpg",
+      "src": "/images/walls/angel-white/angel-white-flower-wall-closeup-white-roses-greenery-tampa.jpg",
       "alt": "Angel White Flower Wall rental Tampa Bay - angel white flower wall closeup white roses greenery tampa"
     },
     {
-      "src": "images/walls/angel-white/angel-white-flower-wall-elegant-venue-table-setting-tampa.jpg",
+      "src": "/images/walls/angel-white/angel-white-flower-wall-elegant-venue-table-setting-tampa.jpg",
       "alt": "Angel White Flower Wall rental Tampa Bay - angel white flower wall elegant venue table setting tampa"
     },
     {
-      "src": "images/walls/angel-white/angel-white-flower-wall-outdoor-party-balloon-garland-tampa.jpg",
+      "src": "/images/walls/angel-white/angel-white-flower-wall-outdoor-party-balloon-garland-tampa.jpg",
       "alt": "Angel White Flower Wall rental Tampa Bay - angel white flower wall outdoor party balloon garland tampa"
     },
     {
-      "src": "images/walls/angel-white/angel-white-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/angel-white/angel-white-flower-wall-rental-tampa.jpg",
       "alt": "Angel White Flower Wall rental Tampa Bay - angel white flower wall rental tampa"
     },
     {
-      "src": "images/walls/angel-white/angel-white-flower-wall-wedding-sweetheart-table-backdrop-tampa.jpg",
+      "src": "/images/walls/angel-white/angel-white-flower-wall-wedding-sweetheart-table-backdrop-tampa.jpg",
       "alt": "Angel White Flower Wall rental Tampa Bay - angel white flower wall wedding sweetheart table backdrop tampa"
     }
   ],
   "dhalia-pink": [
     {
-      "src": "images/walls/dhalia-pink/dhalia-pink-flower-wall-baby-shower-couple-photo-tampa.jpg",
+      "src": "/images/walls/dhalia-pink/dhalia-pink-flower-wall-baby-shower-couple-photo-tampa.jpg",
       "alt": "Dhalia Pink Flower Wall rental Tampa Bay - dhalia pink flower wall baby shower couple photo tampa"
     },
     {
-      "src": "images/walls/dhalia-pink/dhalia-pink-flower-wall-baby-shower-group-photo-tampa.jpg",
+      "src": "/images/walls/dhalia-pink/dhalia-pink-flower-wall-baby-shower-group-photo-tampa.jpg",
       "alt": "Dhalia Pink Flower Wall rental Tampa Bay - dhalia pink flower wall baby shower group photo tampa"
     },
     {
-      "src": "images/walls/dhalia-pink/dhalia-pink-flower-wall-baby-shower-led-sign-tampa.jpg",
+      "src": "/images/walls/dhalia-pink/dhalia-pink-flower-wall-baby-shower-led-sign-tampa.jpg",
       "alt": "Dhalia Pink Flower Wall rental Tampa Bay - dhalia pink flower wall baby shower led sign tampa"
     },
     {
-      "src": "images/walls/dhalia-pink/dhalia-pink-flower-wall-portrait-photoshoot-backdrop-tampa.jpg",
+      "src": "/images/walls/dhalia-pink/dhalia-pink-flower-wall-portrait-photoshoot-backdrop-tampa.jpg",
       "alt": "Dhalia Pink Flower Wall rental Tampa Bay - dhalia pink flower wall portrait photoshoot backdrop tampa"
     },
     {
-      "src": "images/walls/dhalia-pink/dhalia-pink-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/dhalia-pink/dhalia-pink-flower-wall-rental-tampa.jpg",
       "alt": "Dhalia Pink Flower Wall rental Tampa Bay - dhalia pink flower wall rental tampa"
     },
     {
-      "src": "images/walls/dhalia-pink/dhalia-pink-flower-wall-wedding-venue-led-sign-display-tampa.jpg",
+      "src": "/images/walls/dhalia-pink/dhalia-pink-flower-wall-wedding-venue-led-sign-display-tampa.jpg",
       "alt": "Dhalia Pink Flower Wall rental Tampa Bay - dhalia pink flower wall wedding venue led sign display tampa"
     }
   ],
   "donna-champagne": [
     {
-      "src": "images/walls/donna-champagne/donna-champagne-flower-wall-full-display-led-sign-tampa.jpg",
+      "src": "/images/walls/donna-champagne/donna-champagne-flower-wall-full-display-led-sign-tampa.jpg",
       "alt": "Donna Champagne Flower Wall rental Tampa Bay - donna champagne flower wall full display led sign tampa"
     },
     {
-      "src": "images/walls/donna-champagne/donna-champagne-flower-wall-outdoor-lawn-display-tampa.jpg",
+      "src": "/images/walls/donna-champagne/donna-champagne-flower-wall-outdoor-lawn-display-tampa.jpg",
       "alt": "Donna Champagne Flower Wall rental Tampa Bay - donna champagne flower wall outdoor lawn display tampa"
     },
     {
-      "src": "images/walls/donna-champagne/donna-champagne-flower-wall-photo-booth-venue-setup-tampa.jpg",
+      "src": "/images/walls/donna-champagne/donna-champagne-flower-wall-photo-booth-venue-setup-tampa.jpg",
       "alt": "Donna Champagne Flower Wall rental Tampa Bay - donna champagne flower wall photo booth venue setup tampa"
     },
     {
-      "src": "images/walls/donna-champagne/donna-champagne-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/donna-champagne/donna-champagne-flower-wall-rental-tampa.jpg",
       "alt": "Donna Champagne Flower Wall rental Tampa Bay - donna champagne flower wall rental tampa"
     },
     {
-      "src": "images/walls/donna-champagne/donna-champagne-flower-wall-wedding-couple-mr-mrs-led-tampa.jpg",
+      "src": "/images/walls/donna-champagne/donna-champagne-flower-wall-wedding-couple-mr-mrs-led-tampa.jpg",
       "alt": "Donna Champagne Flower Wall rental Tampa Bay - donna champagne flower wall wedding couple mr mrs led tampa"
     },
     {
-      "src": "images/walls/donna-champagne/donna-champagne-flower-wall-wedding-reception-led-sign-tampa.jpg",
+      "src": "/images/walls/donna-champagne/donna-champagne-flower-wall-wedding-reception-led-sign-tampa.jpg",
       "alt": "Donna Champagne Flower Wall rental Tampa Bay - donna champagne flower wall wedding reception led sign tampa"
     }
   ],
   "flora-pink": [
     {
-      "src": "images/walls/flora-pink/flora-pink-flower-wall-birthday-celebration-photo-tampa.jpg",
+      "src": "/images/walls/flora-pink/flora-pink-flower-wall-birthday-celebration-photo-tampa.jpg",
       "alt": "Flora Pink Flower Wall rental Tampa Bay - flora pink flower wall birthday celebration photo tampa"
     },
     {
-      "src": "images/walls/flora-pink/flora-pink-flower-wall-birthday-party-balloon-decor-tampa.jpg",
+      "src": "/images/walls/flora-pink/flora-pink-flower-wall-birthday-party-balloon-decor-tampa.jpg",
       "alt": "Flora Pink Flower Wall rental Tampa Bay - flora pink flower wall birthday party balloon decor tampa"
     },
     {
-      "src": "images/walls/flora-pink/flora-pink-flower-wall-closeup-blush-roses-tampa.jpg",
+      "src": "/images/walls/flora-pink/flora-pink-flower-wall-closeup-blush-roses-tampa.jpg",
       "alt": "Flora Pink Flower Wall rental Tampa Bay - flora pink flower wall closeup blush roses tampa"
     },
     {
-      "src": "images/walls/flora-pink/flora-pink-flower-wall-indoor-blush-rose-display-tampa.jpg",
+      "src": "/images/walls/flora-pink/flora-pink-flower-wall-indoor-blush-rose-display-tampa.jpg",
       "alt": "Flora Pink Flower Wall rental Tampa Bay - flora pink flower wall indoor blush rose display tampa"
     },
     {
-      "src": "images/walls/flora-pink/flora-pink-flower-wall-outdoor-full-display-tampa.jpg",
+      "src": "/images/walls/flora-pink/flora-pink-flower-wall-outdoor-full-display-tampa.jpg",
       "alt": "Flora Pink Flower Wall rental Tampa Bay - flora pink flower wall outdoor full display tampa"
     },
     {
-      "src": "images/walls/flora-pink/flora-pink-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/flora-pink/flora-pink-flower-wall-rental-tampa.jpg",
       "alt": "Flora Pink Flower Wall rental Tampa Bay - flora pink flower wall rental tampa"
     }
   ],
   "the-aria": [
     {
-      "src": "images/walls/the-aria/the-aria-flower-wall-dinner-party-balloon-garland-tampa.jpg",
+      "src": "/images/walls/the-aria/the-aria-flower-wall-dinner-party-balloon-garland-tampa.jpg",
       "alt": "The Aria Flower Wall rental Tampa Bay - the aria flower wall dinner party balloon garland tampa"
     },
     {
-      "src": "images/walls/the-aria/the-aria-flower-wall-greenery-hedge-closeup-tampa.jpg",
+      "src": "/images/walls/the-aria/the-aria-flower-wall-greenery-hedge-closeup-tampa.jpg",
       "alt": "The Aria Flower Wall rental Tampa Bay - the aria flower wall greenery hedge closeup tampa"
     },
     {
-      "src": "images/walls/the-aria/the-aria-flower-wall-outdoor-floral-arch-topper-tampa.jpg",
+      "src": "/images/walls/the-aria/the-aria-flower-wall-outdoor-floral-arch-topper-tampa.jpg",
       "alt": "The Aria Flower Wall rental Tampa Bay - the aria flower wall outdoor floral arch topper tampa"
     },
     {
-      "src": "images/walls/the-aria/the-aria-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/the-aria/the-aria-flower-wall-rental-tampa.jpg",
       "alt": "The Aria Flower Wall rental Tampa Bay - the aria flower wall rental tampa"
     }
   ],
   "the-pearl": [
     {
-      "src": "images/walls/the-pearl/the-pearl-flower-wall-graduation-party-celebration-tampa.jpg",
+      "src": "/images/walls/the-pearl/the-pearl-flower-wall-graduation-party-celebration-tampa.jpg",
       "alt": "The Pearl Flower Wall rental Tampa Bay - the pearl flower wall graduation party celebration tampa"
     },
     {
-      "src": "images/walls/the-pearl/the-pearl-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/the-pearl/the-pearl-flower-wall-rental-tampa.jpg",
       "alt": "The Pearl Flower Wall rental Tampa Bay - the pearl flower wall rental tampa"
     },
     {
-      "src": "images/walls/the-pearl/the-pearl-flower-wall-sweetheart-table-led-sign-tampa.jpg",
+      "src": "/images/walls/the-pearl/the-pearl-flower-wall-sweetheart-table-led-sign-tampa.jpg",
       "alt": "The Pearl Flower Wall rental Tampa Bay - the pearl flower wall sweetheart table led sign tampa"
     },
     {
-      "src": "images/walls/the-pearl/the-pearl-flower-wall-wedding-bridal-party-photo-tampa.jpg",
+      "src": "/images/walls/the-pearl/the-pearl-flower-wall-wedding-bridal-party-photo-tampa.jpg",
       "alt": "The Pearl Flower Wall rental Tampa Bay - the pearl flower wall wedding bridal party photo tampa"
     },
     {
-      "src": "images/walls/the-pearl/the-pearl-flower-wall-wedding-party-group-photo-tampa.jpg",
+      "src": "/images/walls/the-pearl/the-pearl-flower-wall-wedding-party-group-photo-tampa.jpg",
       "alt": "The Pearl Flower Wall rental Tampa Bay - the pearl flower wall wedding party group photo tampa"
     },
     {
-      "src": "images/walls/the-pearl/the-pearl-flower-wall-wedding-selfie-mr-mrs-sign-tampa.jpg",
+      "src": "/images/walls/the-pearl/the-pearl-flower-wall-wedding-selfie-mr-mrs-sign-tampa.jpg",
       "alt": "The Pearl Flower Wall rental Tampa Bay - the pearl flower wall wedding selfie mr mrs sign tampa"
     }
   ],
   "veronicas-garden": [
     {
-      "src": "images/walls/veronicas-garden/veronicas-garden-flower-wall-backyard-party-setup-tampa.jpg",
+      "src": "/images/walls/veronicas-garden/veronicas-garden-flower-wall-backyard-party-setup-tampa.jpg",
       "alt": "Veronica's Garden Flower Wall rental Tampa Bay - veronicas garden flower wall backyard party setup tampa"
     },
     {
-      "src": "images/walls/veronicas-garden/veronicas-garden-flower-wall-birthday-group-photo-tampa.jpg",
+      "src": "/images/walls/veronicas-garden/veronicas-garden-flower-wall-birthday-group-photo-tampa.jpg",
       "alt": "Veronica's Garden Flower Wall rental Tampa Bay - veronicas garden flower wall birthday group photo tampa"
     },
     {
-      "src": "images/walls/veronicas-garden/veronicas-garden-flower-wall-birthday-party-balloon-decor-tampa.jpg",
+      "src": "/images/walls/veronicas-garden/veronicas-garden-flower-wall-birthday-party-balloon-decor-tampa.jpg",
       "alt": "Veronica's Garden Flower Wall rental Tampa Bay - veronicas garden flower wall birthday party balloon decor tampa"
     },
     {
-      "src": "images/walls/veronicas-garden/veronicas-garden-flower-wall-outdoor-tropical-display-tampa.jpg",
+      "src": "/images/walls/veronicas-garden/veronicas-garden-flower-wall-outdoor-tropical-display-tampa.jpg",
       "alt": "Veronica's Garden Flower Wall rental Tampa Bay - veronicas garden flower wall outdoor tropical display tampa"
     },
     {
-      "src": "images/walls/veronicas-garden/veronicas-garden-flower-wall-rental-tampa.jpg",
+      "src": "/images/walls/veronicas-garden/veronicas-garden-flower-wall-rental-tampa.jpg",
       "alt": "Veronica's Garden Flower Wall rental Tampa Bay - veronicas garden flower wall rental tampa"
     }
   ],
   "serenity": [
     {
-      "src": "images/arches/serenity/serenity-twin-floral-arch-garden-display-tampa.jpg",
+      "src": "/images/arches/serenity/serenity-twin-floral-arch-garden-display-tampa.jpg",
       "alt": "Serenity Twin Floral Arches rental Tampa Bay - serenity twin floral arch garden display tampa"
     },
     {
-      "src": "images/arches/serenity/serenity-twin-floral-arch-grand-venue-entrance-tampa.jpg",
+      "src": "/images/arches/serenity/serenity-twin-floral-arch-grand-venue-entrance-tampa.jpg",
       "alt": "Serenity Twin Floral Arches rental Tampa Bay - serenity twin floral arch grand venue entrance tampa"
     },
     {
-      "src": "images/arches/serenity/serenity-twin-floral-arch-indoor-ceremony-setup-tampa.jpg",
+      "src": "/images/arches/serenity/serenity-twin-floral-arch-indoor-ceremony-setup-tampa.jpg",
       "alt": "Serenity Twin Floral Arches rental Tampa Bay - serenity twin floral arch indoor ceremony setup tampa"
     },
     {
-      "src": "images/arches/serenity/serenity-twin-floral-arch-outdoor-wedding-ceremony-tampa.jpg",
+      "src": "/images/arches/serenity/serenity-twin-floral-arch-outdoor-wedding-ceremony-tampa.jpg",
       "alt": "Serenity Twin Floral Arches rental Tampa Bay - serenity twin floral arch outdoor wedding ceremony tampa"
     },
     {
-      "src": "images/arches/serenity/serenity-twin-floral-arch-rustic-venue-ceremony-tampa.jpg",
+      "src": "/images/arches/serenity/serenity-twin-floral-arch-rustic-venue-ceremony-tampa.jpg",
       "alt": "Serenity Twin Floral Arches rental Tampa Bay - serenity twin floral arch rustic venue ceremony tampa"
     }
   ],
   "Mirror Photobooth": [
     {
-      "src": "images/photo-booth/Mirror Photobooth/20260304_202541_377.webp",
-      "alt": "Mirror Photobooth rental Tampa Bay - 20260304 202541 377"
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-baby-shower-flower-wall-backdrop-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth baby shower flower wall backdrop tampa"
     },
     {
-      "src": "images/photo-booth/Mirror Photobooth/20260304_202834_486.webp",
-      "alt": "Mirror Photobooth rental Tampa Bay - 20260304 202834 486"
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-baby-shower-guests-flower-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth baby shower guests flower wall tampa"
     },
     {
-      "src": "images/photo-booth/Mirror Photobooth/20260315_001014_671.webp",
-      "alt": "Mirror Photobooth rental Tampa Bay - 20260315 001014 671"
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-baby-shower-kids-props-flower-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth baby shower kids props flower wall tampa"
     },
     {
-      "src": "images/photo-booth/Mirror Photobooth/20260315_001543_673.webp",
-      "alt": "Mirror Photobooth rental Tampa Bay - 20260315 001543 673"
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-baby-shower-props-flower-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth baby shower props flower wall tampa"
     },
     {
-      "src": "images/photo-booth/Mirror Photobooth/IMG_1083_20260315_001506_3600.webp",
-      "alt": "Mirror Photobooth rental Tampa Bay - IMG 1083 20260315 001506 3600"
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-church-event-friends-hugging-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth church event friends hugging tampa"
     },
     {
-      "src": "images/photo-booth/Mirror Photobooth/IMG_1152_20260315_005934_3600.webp",
-      "alt": "Mirror Photobooth rental Tampa Bay - IMG 1152 20260315 005934 3600"
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-church-event-friends-posing-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth church event friends posing tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-church-event-fun-poses-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth church event fun poses tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-church-event-group-photo-strip-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth church event group photo strip tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-corporate-event-group-hedge-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth corporate event group hedge wall tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-corporate-event-hedge-wall-backdrop-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth corporate event hedge wall backdrop tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-gala-couple-red-rose-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth gala couple red rose wall tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-gala-couples-formal-red-rose-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth gala couples formal red rose wall tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-gala-formal-dresses-red-rose-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth gala formal dresses red rose wall tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-gala-friends-red-rose-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth gala friends red rose wall tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-gala-group-red-rose-wall-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth gala group red rose wall tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-wedding-bride-groom-piggyback-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth wedding bride groom piggyback tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-wedding-groomsmen-cowboy-hat-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth wedding groomsmen cowboy hat tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-wedding-groomsmen-suits-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth wedding groomsmen suits tampa"
+    },
+    {
+      "src": "/images/photo-booth/Mirror Photobooth/mirror-photo-booth-wedding-reception-group-fun-tampa.webp",
+      "alt": "Mirror Photobooth rental Tampa Bay - mirror photo booth wedding reception group fun tampa"
     }
   ]
 };

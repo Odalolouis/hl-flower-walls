@@ -23,7 +23,7 @@ arch, and photo booth rental services across Tampa Bay and surrounding cities.
 
 1. Flower Wall Rentals — 8x8 ft freestanding silk/foam panels, 8 designs
 2. Twin Floral Arches — freestanding twin arch arrangement for ceremonies
-3. Mirror Photo Booth — interactive mirror booth with prints and digital sharing
+3. Mirror Photo Booth (PB-001) — interactive mirror booth with prints and digital sharing
 4. LED Signs — custom LED signage add-ons (Mr & Mrs, Will You Marry Me, etc.)
 5. Other add-ons: balloon garlands, draping, greenery accents
 
@@ -133,6 +133,11 @@ const WEBHOOK_URL = "https://YOUR-N8N-INSTANCE.app.n8n.cloud/webhook/hl-inquiry"
 - config/products.json — Source of truth for all products. If a new product
   is added, update this file AND products.js.
 - docs/seo-strategy.md — Full SEO roadmap. Reference when adding new pages.
+- src/Products/photo-booth/index.html — Photo booth category page listing all booth types.
+- src/Products/photo-booth/mirror-photo-booth/index.html — Mirror Photo Booth product page.
+
+Product pages follow the URL pattern: /{category}/{product-slug}/ (e.g.,
+/photo-booth/mirror-photo-booth/, /walls/amor-red/, /arches/serenity/).
 
 ## Design System
 

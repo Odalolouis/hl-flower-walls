@@ -1,7 +1,7 @@
 /**
  * Build script — Product Image Carousel Manifest
  *
- * Scans src/images/walls/{slug}/ folders for image files and generates
+ * Scans src/images/{category}/{slug}/ folders for image files and generates
  * src/js/product-images.js with the image arrays for each product carousel.
  *
  * Usage:  node scripts/build-carousel.js
@@ -12,10 +12,13 @@ const fs = require('fs');
 const path = require('path');
 
 const SRC_DIR = path.join(__dirname, '..', 'src');
-const WALLS_DIR = path.join(SRC_DIR, 'images', 'walls');
+const IMAGES_DIR = path.join(SRC_DIR, 'images');
 const OUTPUT_FILE = path.join(SRC_DIR, 'js', 'product-images.js');
 
 const IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp']);
+
+// Categories to scan for product images
+const CATEGORIES = ['walls', 'arches', 'photo-booth'];
 
 // Human-readable product names for alt text generation
 const PRODUCT_NAMES = {
@@ -26,48 +29,52 @@ const PRODUCT_NAMES = {
   'angel-white': 'Angel White Flower Wall',
   'the-aria': 'The Aria Flower Wall',
   'veronicas-garden': "Veronica's Garden Flower Wall",
-  'the-pearl': 'The Pearl Flower Wall'
+  'the-pearl': 'The Pearl Flower Wall',
+  'serenity': 'Serenity Twin Floral Arches',
+  'mirror-photo-booth': 'Mirror Photo Booth'
 };
 
 function buildManifest() {
   const manifest = {};
 
-  // Read all subdirectories in the walls folder
-  let slugs;
-  try {
-    slugs = fs.readdirSync(WALLS_DIR, { withFileTypes: true })
-      .filter(d => d.isDirectory())
-      .map(d => d.name)
-      .sort();
-  } catch (err) {
-    console.error('Could not read walls directory:', WALLS_DIR);
-    slugs = [];
-  }
+  for (const category of CATEGORIES) {
+    const categoryDir = path.join(IMAGES_DIR, category);
 
-  for (const slug of slugs) {
-    const dir = path.join(WALLS_DIR, slug);
-    let files;
+    let slugs;
     try {
-      files = fs.readdirSync(dir)
-        .filter(f => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))
+      slugs = fs.readdirSync(categoryDir, { withFileTypes: true })
+        .filter(d => d.isDirectory())
+        .map(d => d.name)
         .sort();
     } catch (err) {
-      files = [];
+      console.error('Could not read directory:', categoryDir);
+      continue;
     }
 
-    const productName = PRODUCT_NAMES[slug] || slug;
+    for (const slug of slugs) {
+      const dir = path.join(categoryDir, slug);
+      let files;
+      try {
+        files = fs.readdirSync(dir)
+          .filter(f => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))
+          .sort();
+      } catch (err) {
+        files = [];
+      }
 
-    manifest[slug] = files.map(function(filename) {
-      // Generate alt text from filename: "photo-1.jpg" → "Dhalia Pink Flower Wall - photo 1"
-      const nameWithoutExt = path.basename(filename, path.extname(filename));
-      const readable = nameWithoutExt.replace(/[-_]/g, ' ');
-      const alt = productName + ' rental Tampa Bay - ' + readable;
+      const productName = PRODUCT_NAMES[slug] || slug;
 
-      return {
-        src: 'images/walls/' + slug + '/' + filename,
-        alt: alt
-      };
-    });
+      manifest[slug] = files.map(function(filename) {
+        const nameWithoutExt = path.basename(filename, path.extname(filename));
+        const readable = nameWithoutExt.replace(/[-_]/g, ' ');
+        const alt = productName + ' rental Tampa Bay - ' + readable;
+
+        return {
+          src: '/images/' + category + '/' + slug + '/' + filename,
+          alt: alt
+        };
+      });
+    }
   }
 
   return manifest;

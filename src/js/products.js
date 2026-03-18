@@ -3,16 +3,18 @@
 // ═══════════════════════════════════════════════════════════════
 
 // ── Configuration ──────────────────────────────────────────────
+// TODO(pre-launch): Replace with your real n8n webhook URL before going live.
+// Form submissions will silently fail until this is configured.
 const WEBHOOK_URL = "https://YOUR-N8N-INSTANCE.app.n8n.cloud/webhook/hl-inquiry";
 
 // ── Product Catalog ────────────────────────────────────────────
 const PRODUCTS = [
-  { id: "FW-001", category: "flower-wall", name: "Dhalia Pink Flower Wall", hourly_rate: 80, daily_rate: 360 },
-  { id: "FW-002", category: "flower-wall", name: "Amour Flower Wall", hourly_rate: 80, daily_rate: 360 },
-  { id: "FW-003", category: "flower-wall", name: "Donna Champagne Flower Wall", hourly_rate: 80, daily_rate: 360 },
-  { id: "FW-004", category: "flower-wall", name: "Flora Pink Flower Wall", hourly_rate: 80, daily_rate: 360 },
-  { id: "FW-005", category: "flower-wall", name: "Angel White Flower Wall", hourly_rate: 80, daily_rate: 360 },
-  { id: "FW-006", category: "flower-wall", name: "The Aria Flower Wall", hourly_rate: 80, daily_rate: 360 },
+  { id: "FW-001", category: "flower-wall", name: "Donna Champagne Flower Wall", hourly_rate: 80, daily_rate: 360 },
+  { id: "FW-002", category: "flower-wall", name: "Amor Red Flower Wall", hourly_rate: 80, daily_rate: 360 },
+  { id: "FW-003", category: "flower-wall", name: "The Aria Flower Wall", hourly_rate: 80, daily_rate: 360 },
+  { id: "FW-004", category: "flower-wall", name: "Angel White Flower Wall", hourly_rate: 80, daily_rate: 360 },
+  { id: "FW-005", category: "flower-wall", name: "Dhalia Pink Flower Wall", hourly_rate: 80, daily_rate: 360 },
+  { id: "FW-006", category: "flower-wall", name: "Flora Pink Flower Wall", hourly_rate: 80, daily_rate: 360 },
   { id: "FW-007", category: "flower-wall", name: "Veronica's Garden Flower Wall", hourly_rate: 80, daily_rate: 360 },
   { id: "FW-008", category: "flower-wall", name: "The Pearl Flower Wall", hourly_rate: 80, daily_rate: 360 },
   { id: "TA-001", category: "twin-arches", name: "Serenity Twin Floral Arches", hourly_rate: 70, daily_rate: 315 },
@@ -73,7 +75,7 @@ function resetModal() {
   if (successState) successState.style.display = 'none';
 
   var errors = document.getElementById('modal-form-errors');
-  if (errors) { errors.style.display = 'none'; errors.innerHTML = ''; }
+  if (errors) { errors.style.display = 'none'; errors.textContent = ''; }
 
   // Reset rental toggle to daily
   setRentalType('daily');
@@ -225,7 +227,7 @@ function submitInquiry(e) {
   // Clear previous errors
   var errEl = document.getElementById('modal-form-errors');
   errEl.style.display = 'none';
-  errEl.innerHTML = '';
+  errEl.textContent = '';
 
   var checkedBoxes = form.querySelectorAll('input[name="products"]:checked');
   var selectedProducts = Array.from(checkedBoxes).map(function (cb) {
@@ -288,7 +290,12 @@ function showSuccessState(inquiryCode) {
 
 function showFormErrors(errors) {
   var el = document.getElementById('modal-form-errors');
-  el.innerHTML = errors.map(function (e) { return '<p>' + e + '</p>'; }).join('');
+  el.textContent = '';
+  errors.forEach(function (msg) {
+    var p = document.createElement('p');
+    p.textContent = msg;
+    el.appendChild(p);
+  });
   el.style.display = 'block';
   el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }

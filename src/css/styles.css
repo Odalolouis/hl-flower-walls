@@ -1734,7 +1734,8 @@ footer {
 
 /* ── Services section on light bg ────────────────────────────── */
 .product-body .product-services {
-  padding: 40px 0 32px;
+  max-width: 1200px;
+  padding: 80px 32px 48px;
 }
 .product-body .product-services .section-eyebrow {
   color: var(--accent);
@@ -1749,12 +1750,12 @@ footer {
   color: var(--text-light);
 }
 .product-body .product-services .service-row {
-  background: #fff;
-  border: 1px solid rgba(196, 133, 110, 0.1);
-  border-radius: var(--radius);
+  background: none;
+  border: none;
+  border-radius: 0;
   overflow: hidden;
-  margin-bottom: 32px;
-  padding: 40px;
+  margin-bottom: 80px;
+  padding: 0;
 }
 .product-body .product-services .service-text h3 {
   color: var(--text);
@@ -1769,7 +1770,8 @@ footer {
   color: var(--text-light);
 }
 .product-body .product-services .feature-check {
-  color: var(--accent);
+  background: var(--accent);
+  color: #fff;
 }
 .product-body .product-services .service-badge {
   background: var(--accent);
@@ -1820,6 +1822,10 @@ footer {
 .product-body .walls-carousel-section {
   background: #fff;
   border: 1px solid rgba(196, 133, 110, 0.08);
+  margin-top: 48px;
+}
+.product-body .walls-carousel-section .section-header {
+  text-align: center;
 }
 .product-body .walls-carousel-section .section-eyebrow {
   color: var(--accent);
@@ -1921,8 +1927,8 @@ footer {
   .product-carousel-arrow { width: 40px; height: 40px; font-size: 18px; }
   .product-carousel-arrow--prev { left: 8px; }
   .product-carousel-arrow--next { right: 8px; }
-  .product-services .service-row { flex-direction: column; padding: 24px; }
-  .product-services .service-row.reverse { flex-direction: column; }
+  .product-services .service-row { grid-template-columns: 1fr; padding: 0; }
+  .product-services .service-row.reverse .service-visual { order: 0; }
   .product-page .nav-links.open {
     background: var(--bg-deep);
     border-bottom-color: rgba(255, 255, 255, 0.1);

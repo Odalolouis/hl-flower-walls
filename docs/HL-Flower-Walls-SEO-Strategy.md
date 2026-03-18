@@ -182,6 +182,10 @@ Each post should include definitive statements AI can extract, like: "A standard
 4. "Flower Wall Rental in St. Petersburg, FL — H&L Flower Walls"
 5. "Flower Arch Rental in Tampa Bay — Wedding Ceremony Arches"
 6. "Photo Booth Rental in Tampa Bay — H&L Event Rentals"
+   - Note: Photo booths now have a category page at `/photo-booth` and individual
+     booth pages at `/photo-booth/mirror-photo-booth`, `/photo-booth/ipad-photo-booth`, etc.
+     Target "photo booth rental Tampa" on the category page; target "mirror photo booth Tampa"
+     on the Mirror Photo Booth product page.
 
 Each city page should have: unique content about that area (mention local venues), all your services, photos from events in that city, embedded Google Map, your full contact info, and FAQ section.
 
